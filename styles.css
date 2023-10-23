@@ -1,0 +1,530 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+
+    /* background-color: rgb(86, 86, 86); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    z-index: 1;
+  
+  
+}
+
+nav{
+    padding-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+   
+}
+
+.logo img{
+    position: absolute;
+    height: 22px;
+    width: auto;
+}
+
+
+.nav-links{
+   padding-top: 1%;
+  padding-left: 35%;
+  
+
+
+}
+
+nav li{
+    padding: 3%;
+    display: inline;
+  
+}
+
+nav a{
+    font-size: 11px;
+text-decoration: none;
+color: #000;
+}
+
+
+
+#section1{
+    
+    padding-top: 12%;
+    height: 100vh;
+    /* background-image: linear-gradient(to top, rgb(0, 33, 246),rgb(6, 115, 187),rgb(3, 54, 54),black, black); */
+
+    background-image: url('images/surf-bg.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: 45% 55%;
+
+    color: aliceblue;
+   
+}
+
+
+
+
+.svg_me{
+   
+}
+
+.svg_me svg{
+   height: 30%;
+}
+
+/* .div_mevideo {
+    text-align: center;
+    padding-top: 12%;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+ 
+    align-items: center;
+
+}
+.mevideo{
+    height: 90%;
+    mix-blend-mode: screen;
+} */
+
+
+
+.section1_content{
+    padding: 18% 5%;
+}
+
+.section1_content h1,h2,h3,h4{
+    text-align: center;
+    align-items: center;
+
+}
+
+.section1_content h1{
+    font-size: 30px;
+    color: #000;
+    /* font-family: 'Trebuchet MS', sans-serif; */
+
+}
+
+.section1_content h2{
+    font-size: 20px;
+
+}
+
+.section1_content h3{
+    font-size: 25px;
+
+}
+
+.section1_content h4{
+    font-size: 25px;
+    padding-top: 60%;
+    color: #ffffff;
+    text-shadow: rgb(0, 0, 0) 0px 0px 10px;
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+
+.contactme_btn_div{
+    text-align: center;
+
+    padding-top: 10%;
+}
+
+.contactme_btn{
+    /* padding: 0%;
+    background-color: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 3px 20px rgb(56, 28, 166);
+    transition: all 0.3s ease 0.2s; */
+}
+
+.contactme_btn:hover{
+    box-shadow: 0px 3px 20px 3px rgb(25, 4, 109);
+}
+
+.surfbtn{
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    /* box-shadow: 0px 3px 20px 3px rgb(25, 4, 109); */
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
+    animation: circulatingShadow 4s linear infinite;
+
+    
+    /* mix-blend-mode: screen; */
+}
+
+@keyframes circulatingShadow {
+    0% {
+        transform: translateX(0) rotate(5deg);
+    }
+    50% {
+        transform: translateX(10px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(5deg);
+    }
+}
+
+.contactme_a{
+    padding: 0%;
+    text-decoration: none;
+ 
+}
+   
+
+
+
+
+
+#section2{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(0, 33, 246),rgb(6, 115, 187),rgb(3, 54, 54),black, black);
+    padding-top: 30%;
+}
+
+.project_slider{
+   /* background-color: rgba(61, 60, 60, 0.5);  */
+   max-height: 440px;
+   display: flex;
+   /* overflow-x: auto; */
+   /* border: 1px solid white; */
+   overflow-x: auto;
+}
+
+ .project{
+    height: 360px;
+    min-width: 250px;
+    /* background-color: white; */
+    /* line-height: 110px; */
+    border-radius: 5%;
+    margin: 3%;
+    position: relative;
+}
+
+.project_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    
+}
+
+.project_title{
+    position: absolute;
+    color: white;
+    top: 85%;
+    left: 0%;
+    padding: 5%;
+    /* padding: 20%; */
+    background-color: rgba(41, 40, 40, 0.5);
+    text-align: center;
+   
+}
+
+.section2_title{
+text-align: center;
+color: white;
+margin-bottom: 5%;
+}
+
+
+
+
+
+
+#section3{
+    height: 100vh;
+    /* background-image: linear-gradient(to top, rgb(0, 33, 246),rgb(6, 115, 187),rgb(3, 54, 54),black, black); */
+    background-image: linear-gradient(to top, rgb(7, 178, 135),rgb(4, 120, 129),rgb(3, 54, 54),black, black);
+    padding-top: 20%;
+}
+
+
+
+
+#section4{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(7, 178, 135),rgb(4, 120, 129),rgb(3, 54, 54),black, black);
+    padding-top: 0%;
+}
+
+
+
+.section4_content{
+    background-color: rgba(41, 40, 40, 0.5);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50% ;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2%;
+   
+}
+
+
+.my_info{
+background-color: rgba(46, 60, 155, 0.5);
+height: 25%;
+}
+
+table{
+    color: aliceblue;
+    text-align: left;
+    font-size: 10px;
+}
+table tr td{ 
+   padding: 2%;
+}
+
+.my_info_table{
+    padding: 10%;
+}
+
+
+
+.email_me{
+    /* background-color: rgb(12, 100, 177); */
+    height: 50%;
+    padding-top: 10%;
+
+  
+}
+
+
+.input_group{
+padding: 2% 10%;
+}
+
+input ,textarea{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    width: 100%;
+    color: white;
+
+}
+
+label{
+    color: rgb(186, 186, 187);
+    font-size: 14px;
+    margin-bottom: 3%;
+    display: block;
+   
+}
+
+
+.send_btn{
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgb(28, 129, 166);
+    transition: all 0.3s ease 0.2s;
+}
+
+.send_btn:hover{
+    box-shadow: 0px 3px 20px 3px rgb(4, 62, 109);
+}
+
+
+@media only screen and (min-width: 768px){
+    
+    .nav-links{
+       
+        padding-top: 1%;
+       padding-left: 45%;
+     
+     
+     }
+
+     .logo img{
+        padding-left: 3%;
+        height: 35px;
+     }
+
+     .nav-links a{
+        font-size: 22px;
+      
+     }
+
+     .mevideo{
+        height: 100%;
+        mix-blend-mode: screen;
+    }
+    
+    .div_mevideo {
+        padding-top: 5%;
+        width: 170px;
+        height: 170px;
+    }
+
+
+    .section1_content{
+        padding: 10% 5%;
+    }
+    
+    .section1_content h1,h2,h3,h4{
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    .section1_content h1{
+        font-size: 22px;
+    
+    }
+    
+    .section1_content h2{
+        font-size: 27px;
+    
+    }
+    
+    .section1_content h3{
+        font-size: 32px;
+    /* addition factor is 7 */
+    }
+    
+    .section1_content h4{
+        font-size: 22px;
+    
+    }
+    
+    .contactme_btn{
+        padding: 2%;
+
+    }
+    
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px){
+
+    nav{
+        padding-top: 2%;
+
+    }
+    
+    .nav-links{
+       
+        padding-top: 1%;
+       padding-left: 65%;
+     
+     
+     }
+
+     .logo img{
+        padding-left: 3%;
+        height: 35px;
+     }
+
+     .nav-links a{
+        font-size: 20px;
+      
+     }
+
+
+     #section1{
+    
+        padding-top: 5%;
+        background-image: linear-gradient(to right, rgb(0, 33, 246),rgb(6, 115, 187),rgb(3, 54, 54),black, black);
+       
+    }
+    
+
+    
+.svg_me{
+   float: right;
+   padding-right: 8%;
+   padding-top: 7%;
+}
+
+.svg_me svg{
+    height: 50%;
+}
+
+
+
+     /* .div_mevideo {
+        padding-top: 2%;
+        float: right;
+        padding-right: 8%;
+        width: 350px;
+        height: 350px;
+    }
+
+     .mevideo{
+        height: 60%;
+        mix-blend-mode: screen;
+    } */
+
+
+
+    .section1_content{
+       padding-right: 45%;
+    }
+    
+    .section1_content h1,h2,h3,h4{
+        text-align: left;
+        align-items: left;
+    
+    }
+    
+    .section1_content h1{
+        font-size: 22px;
+    
+    }
+    
+    .section1_content h2{
+        font-size: 27px;
+    
+    }
+    
+    .section1_content h3{
+        font-size: 32px;
+    /* addition factor is 7 */
+    }
+    
+    .section1_content h4{
+        font-size: 18px;
+    
+    }
+    
+    .contactme_btn{
+        padding: 2%;
+       
+    }
+
+    .contactme_btn_div{
+        text-align: left;
+    }
+    
+
+
+}
